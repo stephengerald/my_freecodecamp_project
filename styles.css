@@ -1,0 +1,172 @@
+/* css for product landing page */
+
+html {
+    box-sizing: border-box;
+  }
+  body {
+    padding-top: 100px;
+    background-color: #ffffff
+    }
+  #header {
+    display: block;
+    float: left;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: white;
+    font-family: sans-serif;
+    padding: 1em;
+    overflow: hidden;
+    
+  }
+  #header-img {
+    width: 30%;
+  }
+  
+  #nav-bar {
+    width: 60%;
+    margin-left: 50%;
+    overflow: hidden;
+    margin-top: -50px;
+  }
+  .nav-link {
+    display: block;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .nav-link:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  #form {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #form h2 p {
+    display: flex
+  }
+  #content {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .features-box {
+    display: flex;
+    margin: 0 80px
+  }
+  
+  #video {
+    margin: 50px 0;
+  }
+  #pricing .details {
+    border: 1px solid black;
+    height: 50%;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #pricing .details button {
+    background-color: #f05310;
+    margin-bottom: 10px;
+  }
+  
+  #pricing {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  footer {
+    text-align: right;
+    background-color: grey;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  footer ul li {
+    display: inline;
+    padding: 16px;
+    list-style-type: none;
+  }
+  footer ul {
+    margin-right: 10px;
+    padding: 5px
+  }
+  footer ul p {
+    margin: -1px 15px;
+  }
+  @media screen and (max-width: 580px) {
+    .features-box {
+    display: inline;
+    margin: 0 80px
+    }
+    #pricing {
+    display: inline;
+    padding: 5px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #pricing .details {
+    border: 1px solid black;
+    height: 110%;
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  #video {
+    width: 100%;
+  }
+  body {
+    padding-top: 200px;
+    }
+    #header-img {
+    width: 50%;
+    }
+    #nav-bar {
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -50px;
+    display: inline
+  }
+  .features-box {
+    display: inline;
+    margin: 0
+  }
+  #content  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  footer {
+    width: 100%;
+    height: auto
+  }
+  footer ul li {
+    display: inline;
+  }
+  #header {
+    height: 10%;
+  }
+  .nav-link {
+    padding: 5px 30px;
+  }
+  #nav-bar {
+    width: 60%;
+    margin-left: 50%;
+    overflow: hidden;
+    margin-top: -50px;
+  }
+  }
